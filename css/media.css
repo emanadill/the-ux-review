@@ -1,0 +1,60 @@
+@media screen and (max-width: 991px){
+    .community-layout{
+        flex-direction: column;
+    }
+
+    .community-left,
+    .community-right{
+        width: 100%;
+    }
+
+    .community-left h2{
+        max-width: 100%;
+        font-size: 36px;
+    }
+
+    .rebels-card h3{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .community-section{
+        padding: 70px 0;
+    }
+
+    .community-left h2{
+        font-size: 30px;
+    }
+
+    .community-box{
+        font-size: 16px;
+        padding: 20px 16px;
+    }
+
+    .feature-item{
+        align-items: flex-start;
+    }
+
+    .feature-item p{
+        font-size: 15px;
+    }
+
+    .join-btn{
+        width: 100%;
+        font-size: 16px;
+        padding: 16px 18px;
+    }
+
+    .rebels-card{
+        padding: 24px 20px;
+    }
+
+    .rebels-card h3{
+        font-size: 26px;
+    }
+
+    .review-text{
+        font-size: 15px;
+    }
+}
